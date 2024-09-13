@@ -1,0 +1,23 @@
+.reviewsContainer {
+    padding: 16px;
+  }
+  
+  .reviewsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reviewItem {
+    margin-bottom: 16px;
+  }
+  
+  .reviewItem h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .reviewItem p {
+    margin: 8px 0 0;
+    font-size: 14px;
+  }
+  

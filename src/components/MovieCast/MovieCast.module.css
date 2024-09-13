@@ -1,0 +1,23 @@
+.castList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.castItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.actorName, .actorCharacter {
+  margin: 5px 0;
+  overflow-wrap: break-word;
+}

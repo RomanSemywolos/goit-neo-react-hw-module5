@@ -1,0 +1,55 @@
+.container {
+  padding: 20px;
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.poster {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.userScore,
+.genres,
+h3 {
+  margin: 10px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+}
+
+.goBackButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.goBackButton:hover {
+  background-color: #0056b3;
+}
+
+.goBackButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}

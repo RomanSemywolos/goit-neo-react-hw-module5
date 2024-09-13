@@ -1,0 +1,39 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list li {
+  margin: 0 15px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #002852;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+
+.list .isActive {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.separator {
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px solid #dee2e6;
+}

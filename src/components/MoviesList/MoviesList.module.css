@@ -1,0 +1,21 @@
+.movieList {
+  list-style: disc;
+  padding: 10px;
+  margin: 0;
+}
+
+.movieItem {
+  margin-top: 10px;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #001934;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.movieLink:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
