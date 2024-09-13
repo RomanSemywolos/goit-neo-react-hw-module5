@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-// Ваш API токен
+// API токен
 const API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2N2I1YmY0M2M2NTllZGQzN2EyNGM0ZGM4MTYwYTY4YiIsIm5iZiI6MTcyNjE4NTY1My42NDcxNTEsInN1YiI6IjY2ZTM3ZDE5MjgwNDhkOTJkZWY5MzAzNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.WywC6UfZd1uNVdCknrsA8ClxcEjvrGG8LFV2vuLVe70";
 
 // Налаштування axios
